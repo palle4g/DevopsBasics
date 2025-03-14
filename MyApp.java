@@ -4,13 +4,7 @@ public class MyApp
 {
        //System.out.println( "Hello World!" );
         public static void main(String args[]) throws Exception {
-            System.out.println("MyApp");
-            
-            //int count = 10;
-
-            
-            //MyApp myMainApplication = new MyApp();
-            
+            System.out.println("MyApp");                       
             CryptoUtil cryptoUtilObj = new CryptoUtil();
             
             System.out.println("Encrypted SSN returned for 136805132 is--" +cryptoUtilObj.encrypt("136805132"));
