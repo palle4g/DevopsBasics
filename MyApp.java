@@ -2,6 +2,7 @@ package com.gpp_mainappproj.JustMainApp;
 
 public class MyApp 
 {
+        // adding dummy comment
         public static void main(String args[]) throws Exception {
             System.out.println("MyApp");                       
             CryptoUtil cryptoUtilObj = new CryptoUtil();
