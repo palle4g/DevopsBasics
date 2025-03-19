@@ -8,7 +8,7 @@ import javax.crypto.spec.DESedeKeySpec;
 
 import org.apache.commons.codec.binary.Base64;
 
-public class CryptoUtil {
+public class BasicUtil {
 
 	private static final String UNICODE_FORMAT = "UTF8";
 	public static final String DESEDE_ENCRYPTION_SCHEME = "DESede";
@@ -21,7 +21,7 @@ public class CryptoUtil {
 	SecretKey key;
 	private final byte[] arrayBytes;
 
-	public CryptoUtil() throws Exception {
+	public BasicUtil() throws Exception {
 		myEncryptionScheme = DESEDE_ENCRYPTION_SCHEME;
 		arrayBytes = myEncryptionKey.getBytes(UNICODE_FORMAT);
 		ks = new DESedeKeySpec(arrayBytes);
